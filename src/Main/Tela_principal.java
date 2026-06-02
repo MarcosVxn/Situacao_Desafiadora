@@ -5,6 +5,8 @@ import java.awt.EventQueue;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.border.EmptyBorder;
+import javax.swing.JButton;
+import javax.swing.JLabel;
 
 public class Tela_principal extends JFrame {
 
@@ -36,7 +38,15 @@ public class Tela_principal extends JFrame {
 		contentPane = new JPanel();
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
 		setContentPane(contentPane);
+		contentPane.setLayout(null);
+		
+		JButton btnNewButton = new JButton("");
+		btnNewButton.setBounds(158, 127, 89, 23);
+		contentPane.add(btnNewButton);
+		
+		JLabel lblNewLabel = new JLabel("Tela_Principal");
+		lblNewLabel.setBounds(174, 25, 73, 14);
+		contentPane.add(lblNewLabel);
 
 	}
-
 }
