@@ -54,10 +54,12 @@ public class Tela_principal extends JFrame {
 		lblNewLabel.setBounds(0, 0, 784, 50);
 		contentPane.add(lblNewLabel);
 		
-		JLabel lblNewLabel_1 = new JLabel("New label");
-		lblNewLabel_1.setIcon(new ImageIcon(Tela_principal.class.getResource("/Img/IconFinControl.png")));
-		lblNewLabel_1.setBounds(563, 223, 46, 14);
-		contentPane.add(lblNewLabel_1);
+
+		JLabel lblNewLabel_2 = new JLabel("New label");
+		lblNewLabel_2.setHorizontalAlignment(SwingConstants.CENTER);
+		lblNewLabel_2.setIcon(new ImageIcon(Tela_principal.class.getResource("/Img/IconFinControl.png")));
+		lblNewLabel_2.setBounds(55, 0, 555, 443);
+		contentPane.add(lblNewLabel_2);
 ;
 
 	}
